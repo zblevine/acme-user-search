@@ -23,7 +23,6 @@ const runSearch = async str => {
     const response = await fetch(`${apiURL}${str}`);
     const data = await response.json();
     renderUsers(data.users);
-    console.log(data);
 }
 
 const acmeSearch = document.querySelector('#acme-search');
