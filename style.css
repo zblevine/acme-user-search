@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#page-top {
+    margin: 0 auto;
+    text-align: center;
+}
+
+#acme-search {
+    width: 80%;
+    height: 1rem;
+    margin: 0 auto;
+}
+
+#clear {
+    display: block;
+    margin: 0.5rem 0;
+}
+
+#results td {
+    padding-right: 1rem;
+}
+
+#results img {
+    max-width: 100px;
+    border-radius: 50%;
+}
